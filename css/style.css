@@ -48,13 +48,13 @@
 
 @media screen and (max-width:520px) {
     .nav-left {
-        margin-left: 5rem !important;
+        margin-left: 6rem !important;
     }
 }
 
 @media screen and (max-width:450px) {
     .nav-left {
-        margin-left: 2rem !important;
+        margin-left: 3rem !important;
     }
 }
 
@@ -95,7 +95,7 @@
 @media screen and (max-width:408px) {
     .mybrand {
        height: auto;
-       width: 9rem;
+       width: 8rem;
     }
     
 }
