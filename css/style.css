@@ -1,0 +1,227 @@
+.nav-color {
+    background-color: #002e39;
+}
+
+.nav-left {
+    margin-left: 50rem !important;
+}
+
+.nav-height {
+    height: 3.3rem !important;
+    background-color: white;
+}
+
+
+/* Login button meadia query  */
+@media screen and (max-width:1187px) {
+
+    .nav-left {
+        margin-left: 45rem !important;
+    }
+}
+
+@media screen and (max-width:1095px) {
+    .nav-left {
+        margin-left: 35rem !important;
+    }
+}
+
+@media screen and (max-width:957px) {
+    .nav-left {
+        margin-left: 33rem !important;
+
+    }
+}
+
+@media screen and (max-width:920px) {
+    .nav-left {
+        margin-left: 29rem !important;
+
+    }
+}
+
+@media screen and (max-width:800px) {
+    .nav-left {
+        margin-left: 12rem !important;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .nav-left {
+        margin-left: 8rem !important;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .nav-left {
+        margin-left: 5rem !important;
+    }
+}
+
+/* End media query of login button  */
+
+.mobile-center {
+
+    margin-left: 3.3rem;
+}
+
+@media screen and (min-width:410px) {
+
+    .mobile-center {
+        margin-left: 5rem;
+    }
+
+
+}
+
+.login-button {
+    color: #002e39;
+    font-size: 1rem;
+    margin-top: 9px;
+}
+
+.login-button:hover {
+    color: #63120a;
+}
+
+.active {
+    color: red;
+}
+
+.mybrand {
+    color: rgb(8 84 98);
+    font-size: 1rem;
+}
+
+.mybrand:hover {
+    color: rgb(170, 4, 4);
+
+}
+
+.nav-link:hover {
+    color: rgb(255, 49, 49);
+}
+
+.nav-link {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* hide scroll bal for chrome  */
+.bodyy::-webkit-scrollbar {
+    display: none;
+
+}
+
+/* hide scroll bar for aother browser  */
+.bodyy {
+    background: #08333317;
+    -ms-overflow-syle: none;
+    scrollbar-width: none;
+
+}
+
+.mypostionfix {
+    width: 76rem;
+}
+
+.maincontainer {
+    padding-top: 7rem;
+}
+
+
+/* footer css  */
+.bg-footercolor {
+    background-color: #002e39;
+}
+
+.footer-text-hover:hover {
+    color: #9f1b0f;
+}
+
+/* end footer css  */
+
+
+.more-detail-button {
+    background-color: #255661;
+    width: 24rem;
+}
+
+.more-detail-button:hover {
+    background-color: #233e44;
+
+}
+
+/* earn page css  */
+
+
+.earnblock {
+    color: white;
+    border-radius: 3rem;
+    background: #122a30f0;
+    border: 0.2rem solid rgb(255, 166, 1);
+}
+
+.download-button {
+    display: inline-block;
+    padding: 6px 6px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ffc800;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.download-button:hover {
+    background-color: #9e8701;
+    color: #fff;
+}
+
+.download-button {
+    background-color: #d7b50c;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.appimage{
+    border:0.3rem solid greenyellow; 
+    border-radius: 10rem;
+    height: auto;
+}
+
+.video-watch-button {
+    transition-duration: 0.4s;
+    border: 4px solid rgb(128, 9, 9)
+  }
+  
+  .video-watch-button:hover {
+    background-color: #e0510f; /* Green */
+    color: white;
+  }
+
+/* model  */
+.modal-header, .close {
+    background-color: #ffffff4a;
+    color: #062b3b !important;
+    margin-left: 33%;
+    font-size: 30px;
+}
+
+.login-buttons{
+    font-size: 89%;
+   width: 10rem;
+    background: #214f67;
+    margin-right: 10rem;
+
+}
+.login-buttons:hover{
+    background: #0d1b22;
+}
+
+.form-control{
+    border-color: rgb(5, 44, 58);
+}
