@@ -3,7 +3,7 @@
 }
 
 .nav-left {
-    margin-left: 50rem !important;
+    margin-left: 49rem !important;
 }
 
 .nav-height {
@@ -16,51 +16,51 @@
 @media screen and (max-width:1187px) {
 
     .nav-left {
-        margin-left: 45rem !important;
+        margin-left: 44rem !important;
     }
 }
 
 @media screen and (max-width:1095px) {
     .nav-left {
-        margin-left: 35rem !important;
+        margin-left: 33rem !important;
     }
 }
 
 @media screen and (max-width:957px) {
     .nav-left {
-        margin-left: 33rem !important;
+        margin-left: 32rem !important;
 
     }
 }
 
 @media screen and (max-width:920px) {
     .nav-left {
-        margin-left: 29rem !important;
+        margin-left: 28rem !important;
 
     }
 }
 
 @media screen and (max-width:800px) {
     .nav-left {
-        margin-left: 12rem !important;
+        margin-left: 11rem !important;
     }
 }
 
 @media screen and (max-width:520px) {
     .nav-left {
-        margin-left: 8rem !important;
+        margin-left: 5rem !important;
     }
 }
 
 @media screen and (max-width:450px) {
     .nav-left {
-        margin-left: 5rem !important;
+        margin-left: 2rem !important;
     }
 }
 
 /* End media query of login button  */
 
-.mobile-center {
+/* .mobile-center {
 
     margin-left: 3.3rem;
 }
@@ -72,7 +72,7 @@
     }
 
 
-}
+} */
 
 .login-button {
     color: #002e39;
@@ -92,6 +92,14 @@
     color: rgb(8 84 98);
     font-size: 1rem;
 }
+@media screen and (max-width:408px) {
+    .mybrand {
+       height: auto;
+       width: 9rem;
+    }
+    
+}
+
 
 .mybrand:hover {
     color: rgb(170, 4, 4);
@@ -143,7 +151,7 @@
 
 .more-detail-button {
     background-color: #255661;
-    width: 24rem;
+    width: 100%;
 }
 
 .more-detail-button:hover {
