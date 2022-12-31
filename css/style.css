@@ -3,7 +3,7 @@
 }
 
 .nav-left {
-    margin-left: 49rem !important;
+    margin-left: 50rem !important;
 }
 
 .nav-height {
@@ -16,67 +16,49 @@
 @media screen and (max-width:1187px) {
 
     .nav-left {
-        margin-left: 44rem !important;
+        margin-left: 45rem !important;
     }
 }
 
 @media screen and (max-width:1095px) {
     .nav-left {
-        margin-left: 33rem !important;
+        margin-left: 35rem !important;
     }
 }
 
 @media screen and (max-width:957px) {
     .nav-left {
-        margin-left: 32rem !important;
+        margin-left: 33rem !important;
 
     }
 }
 
 @media screen and (max-width:920px) {
     .nav-left {
-        margin-left: 28rem !important;
+        margin-left: 29rem !important;
 
     }
 }
 
 @media screen and (max-width:800px) {
     .nav-left {
-        margin-left: 11rem !important;
+        margin-left: 12rem !important;
     }
 }
 
 @media screen and (max-width:520px) {
     .nav-left {
-        margin-left: 6rem !important;
+        margin-left: 4rem !important;
     }
 }
 
-@media screen and (max-width:450px) {
-    .nav-left {
-        margin-left: 3rem !important;
-    }
-}
-
-/* End media query of login button  */
-
-/* .mobile-center {
-
-    margin-left: 3.3rem;
-}
-
-@media screen and (min-width:410px) {
-
-    .mobile-center {
-        margin-left: 5rem;
-    }
 
 
-} */
+
 
 .login-button {
     color: #002e39;
-    font-size: 1rem;
+    font-size: 100%;
     margin-top: 9px;
 }
 
@@ -88,21 +70,24 @@
     color: red;
 }
 
-.mybrand {
-    color: rgb(8 84 98);
-    font-size: 1rem;
-}
+
+
 @media screen and (max-width:408px) {
     .mybrand {
        height: auto;
-       width: 8rem;
+       /* width: 9rem; */
+       font-size: 50%;
     }
     
 }
 
+.mybrand{
+    color: #002e39;
+    
+}
 
 .mybrand:hover {
-    color: rgb(170, 4, 4);
+    color: rgb(135, 9, 9);
 
 }
 
@@ -172,7 +157,7 @@
 .download-button {
     display: inline-block;
     padding: 6px 6px;
-    font-size: 18px;
+    font-size: 100%;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -183,6 +168,15 @@
     border-radius: 15px;
     box-shadow: 0 9px #999;
 }
+
+@media screen and (max-width:500) {
+    .download-button {
+        font-size: 50%;
+        
+    }
+    
+}
+
 
 .download-button:hover {
     background-color: #9e8701;
@@ -199,6 +193,14 @@
     border:0.3rem solid greenyellow; 
     border-radius: 10rem;
     height: auto;
+    width: 50%;
+}
+
+@media screen and (max-width:900) {
+    .appimage{
+    height: auto;
+    width: 60%;
+}
 }
 
 .video-watch-button {
@@ -215,15 +217,16 @@
 .modal-header, .close {
     background-color: #ffffff4a;
     color: #062b3b !important;
-    margin-left: 33%;
+    margin-left: 10%;
+    text-align: center;
     font-size: 30px;
 }
 
 .login-buttons{
     font-size: 89%;
-   width: 10rem;
+   width:100%;
     background: #214f67;
-    margin-right: 10rem;
+   
 
 }
 .login-buttons:hover{
@@ -232,4 +235,8 @@
 
 .form-control{
     border-color: rgb(5, 44, 58);
+}
+
+.refer-link{
+    background-color: yellow;
 }
